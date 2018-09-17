@@ -3,24 +3,24 @@
     3  history > history_20180912_.txt
     4  whoami
     5  pwd
-    6  ls
+    6  ls - parada failus
     7  la
     8  ls la
-    9  ls -la
+    9  ls -la 
    10  ls
    11  ls -l
    12  cd
    13  cd music
-   14  cd Music/
-   15  pwd
+   14  cd Music/ ieiet failā music
+   15  pwd - kur es esmu
    16  ls
-   17  ls -a
+   17  ls -a 
    18  ls la
-   19  ls -la
+   19  ls -la  parada failus plaši
    20  pwd
-   21  cd .
+   21  cd . - paliek uz vietas
    22  pwd
-   23  cd ..
+   23  cd .. -iet vienu failu grupu uz atpakaļ (cip user->home)
    24  pwd
    25  cd ..
    26  pwd
@@ -40,28 +40,28 @@
    40  cd..
    41  cd ..
    42  pwd
-   43  cd ~
+   43  cd ~ pāriet us /home/user
    44  pwd
    45  cd /
-   46  mkdir
-   47  mkdir mapeInts
+   46  mkdir 
+   47  mkdir mapeInts - uztaisa jaunu mapi ar nosaukumu mapeInts
    48  ls -l
-   49  cd mapeINts/
+   49  cd mapeINts/  - pārvietojas uz mapi mapeInts
    50  cd mapeInts
    51  pwd
    52  cd..
    53  cd ..
-   54  rmdir mapeInts/
+   54  rmdir mapeInts/  - izdzēš mapi mapeInts
    55  mkdir mapeInts
    56  cd mapeInts/
-   57  mkdir mapeapakshInts
+   57  mkdir mapeapakshInts  -uztaisa apakšmapi, ja jau ir iekšā mapeInts
    58  cd mapeapakshInts
    59  cd 
    60  rmdir mapeInts/
    61  man rmdir
    62  man rm
-   63  rm -r mapeInts/
-   64  echo
+   63  rm -r mapeInts/  -izdzēš mapeInts pat, ja tur ir iekšā citas apakš mapes
+   64  echo - uzraksta tekstu
    65  man echo
    66  echo "intsintsints"
    67  echo "ints
@@ -69,28 +69,28 @@ ints
 ints
 "
    68  echo "ints\nints\nints"
-   69  echo -e "ints\nints\nints"
+   69  echo -e "ints\nints\nints" -raksta ints katrā rindiņā
    70  echo "ints"
-   71  echo "ints" > fails1.txt
+   71  echo "ints" > fails1.txt -izveido failu fails1.txt un tajā ieraksta ints
    72  ls -l
    73  cat fails1.txt
    74  q
    75  echo "intsints" > fails1.txt
    76  ls- l
    77  ls -l
-   78  cat fails1.txt
+   78  cat fails1.txt -parāda, kas atrodas failā
    79  echo "intsints" >> fails1.txt
    80  cat fails1.txt
-   81  nano fails1.txt
+   81  nano fails1.txt -atver failu un tur var rediģēt visu
    82  ls -l
-   83  chmod 540 fails1.txt
+   83  chmod 540 fails1.txt -maina faila prikolus
    84  ls-l
    85  ls -l
    86  echo "intsints" >> fails1.txt
    87  nano fails1.txt
    88  ls -l
-   89  cp fails1.txt fails1001.txt 
-   90  mv *1*.text Music/
+   89  cp fails1.txt fails1001.txt  -nokopē failu
+   90  mv *1*.text Music/ -pārliek visus failus ar 1 uz mapi music
    91  mv *1*.txt Music/
    92  mv fails1.txt ../fails102.txt
    93  ls -l 
@@ -109,9 +109,9 @@ ints
   106  pwd
   107  mv fails123.txt Music/
   108  ls Music/
-  109  rm Music/fails123.txt
+  109  rm Music/fails123.txt -izdzēš konkrēto failu no music
   110  ls Music/
-  111  rm fails*.txt
+  111  rm fails*.txt -izdzēš visus failus kuri sākas ar fails
   112  ls -l
   113  history
   114  history > history_20180917.txt
