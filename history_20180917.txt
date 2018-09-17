@@ -1,0 +1,117 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  history > history_20180912_.txt
+    4  whoami
+    5  pwd
+    6  ls
+    7  la
+    8  ls la
+    9  ls -la
+   10  ls
+   11  ls -l
+   12  cd
+   13  cd music
+   14  cd Music/
+   15  pwd
+   16  ls
+   17  ls -a
+   18  ls la
+   19  ls -la
+   20  pwd
+   21  cd .
+   22  pwd
+   23  cd ..
+   24  pwd
+   25  cd ..
+   26  pwd
+   27  cd..
+   28  cd ..
+   29  pwd
+   30  cd .
+   31  pwd
+   32  cd home/
+   33  pwd
+   34  cd user/
+   35  pwd
+   36  cd ..
+   37  cd /home/user/
+   38  pwd
+   39  cd ..
+   40  cd..
+   41  cd ..
+   42  pwd
+   43  cd ~
+   44  pwd
+   45  cd /
+   46  mkdir
+   47  mkdir mapeInts
+   48  ls -l
+   49  cd mapeINts/
+   50  cd mapeInts
+   51  pwd
+   52  cd..
+   53  cd ..
+   54  rmdir mapeInts/
+   55  mkdir mapeInts
+   56  cd mapeInts/
+   57  mkdir mapeapakshInts
+   58  cd mapeapakshInts
+   59  cd 
+   60  rmdir mapeInts/
+   61  man rmdir
+   62  man rm
+   63  rm -r mapeInts/
+   64  echo
+   65  man echo
+   66  echo "intsintsints"
+   67  echo "ints
+ints
+ints
+"
+   68  echo "ints\nints\nints"
+   69  echo -e "ints\nints\nints"
+   70  echo "ints"
+   71  echo "ints" > fails1.txt
+   72  ls -l
+   73  cat fails1.txt
+   74  q
+   75  echo "intsints" > fails1.txt
+   76  ls- l
+   77  ls -l
+   78  cat fails1.txt
+   79  echo "intsints" >> fails1.txt
+   80  cat fails1.txt
+   81  nano fails1.txt
+   82  ls -l
+   83  chmod 540 fails1.txt
+   84  ls-l
+   85  ls -l
+   86  echo "intsints" >> fails1.txt
+   87  nano fails1.txt
+   88  ls -l
+   89  cp fails1.txt fails1001.txt 
+   90  mv *1*.text Music/
+   91  mv *1*.txt Music/
+   92  mv fails1.txt ../fails102.txt
+   93  ls -l 
+   94  cd Music/
+   95  mv fails1.txt ../fails102.txt
+   96  cd ..
+   97  ls -l
+   98  cd Music/
+   99  ls -l
+  100  mv *1*.txt ../
+  101  cd
+  102  ls -l
+  103  mv fails13.txt fails102.txt
+  104  ls Music
+  105  ls Music/
+  106  pwd
+  107  mv fails123.txt Music/
+  108  ls Music/
+  109  rm Music/fails123.txt
+  110  ls Music/
+  111  rm fails*.txt
+  112  ls -l
+  113  history
+  114  history > history_20180917.txt
