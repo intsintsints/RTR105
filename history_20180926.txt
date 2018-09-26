@@ -1,0 +1,6 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  nano README.md
+    4  nano git-upload
+    5  ls -l
+    6  history > history_20180926.txt

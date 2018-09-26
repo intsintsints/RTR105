@@ -1,0 +1,59 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  ls-la
+    4  pwd
+    5  whoami
+    6  ls
+    7  ls -l
+    8  laimdota straujuma
+    9  nano mans_skripts.sh
+   10  cat /bin/history
+   11  cat bin/ls
+   12  ls -l
+   13  cat /bin/ls
+   14  62; ls
+   15  echo $path
+   16  echo $PATH
+   17  ls -l
+   18  ./mans_skripts.sh
+   19  /home/user/mans_skripts.sh
+   20  chmod 764 mans_skripts.sh
+   21  ls -l
+   22  echo $PATH
+   23  PATH=$PATH:~
+   24  $PATh
+   25  $PATH
+   26  echo $PATH
+   27  mans_skripts.sh 
+   28  cd mapemape
+   29  cd mape
+   30  cd mapemape
+   31  ..
+   32  ../
+   33  cd /home/user
+   34  ls -l
+   35  git clone https://github.com/intsintsints/RTR105
+   36  ls -l
+   37  mv mans_skrippts.sh RTR105/
+   38  mv mans_skripts.sh RTR105/
+   39  ls -l
+   40  cd RTR105
+   41  ls-l
+   42  ls -l
+   43  cd /home/user
+   44  cd RTR105
+   45  nano README.md
+   46  cd /home/user
+   47  history
+   48  $PATH
+   49  ls -l
+   50  cd RTR105/
+   51  mans_skripts.sh
+   52  PATH=$PATH:~/RTR105
+   53  $PATH
+   54  mans_skripts.sh
+   55  ls -l
+   56  rm -r mape/
+   57  ls -l
+   58  history
+   59  history > history_20180926aa.txt
