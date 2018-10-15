@@ -1,0 +1,7 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  nano dgr_20181015a.py
+    4  nano dgr_20181015a.txt
+    5  ls -l
+    6  ls -lt
+    7  history > history_20181015_17_09
