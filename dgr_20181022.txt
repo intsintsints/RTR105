@@ -1,0 +1,215 @@
+ipython
+Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 18:10:19) 
+Type 'copyright', 'credits' or 'license' for more information
+IPython 6.2.1 -- An enhanced Interactive Python. Type '?' for help.
+
+In [1]: def thing()
+  File "<ipython-input-1-a7af3c16f083>", line 1
+    def thing()
+               ^
+SyntaxError: invalid syntax
+
+
+In [2]: def thing)
+  File "<ipython-input-2-31800f1935e4>", line 1
+    def thing)
+             ^
+SyntaxError: invalid syntax
+
+
+In [3]: def thing():
+   ...:     print("hello")
+   ...:     print("fun")
+   ...:     
+
+In [4]: thing()
+hello
+fun
+
+In [5]: thing()
+   ...: print("zinp")
+   ...: thing()
+   ...: 
+hello
+fun
+zinp
+hello
+fun
+
+In [6]: ints=max("hello world")
+
+In [7]: print(ints)
+w
+
+In [8]: small=min("hello world")
+
+In [9]: print (small)
+ 
+
+In [10]: print(max.__doc__)
+max(iterable, *[, default=obj, key=func]) -> value
+max(arg1, arg2, *args, *[, key=func]) -> value
+
+With a single iterable argument, return its biggest item. The
+default keyword-only argument specifies an object to return if
+the provided iterable is empty.
+With two or more arguments, return the largest argument.
+
+In [11]: fur=max(abc)
+----------------------------------------------------------------
+NameError                      Traceback (most recent call last)
+<ipython-input-11-93975d3c3399> in <module>()
+----> 1 fur=max(abc)
+
+NameError: name 'abc' is not defined
+
+In [12]: fur=max("abc")
+
+In [13]: print(max)
+<built-in function max>
+
+In [14]: print(fur)
+c
+
+In [15]: x=5
+
+In [16]: x=5
+    ...: print("hello")
+    ...: def print_lyrics():
+    ...:     print("tu gribi braukt ar mercedes benz")
+    ...:     print("un uz mana kaputa dance")
+    ...: print("ints")
+    ...: x=x*3
+    ...: print(x)
+    ...:     
+hello
+ints
+15
+
+In [17]: print(print_lyrics)
+<function print_lyrics at 0x7f05b211a158>
+
+In [18]: print_lyrics()
+tu gribi braukt ar mercedes benz
+un uz mana kaputa dance
+
+In [19]: x=5
+    ...: print("hello")
+    ...: def print_lyrics():
+    ...:     print("tu gribi braukt ar mercedes benz")
+    ...:     print("un uz mana kaputa dance")
+    ...: print("ints")
+    ...: print_lyrics()
+    ...: x=x*3
+    ...: print(x)
+    ...:     
+hello
+ints
+tu gribi braukt ar mercedes benz
+un uz mana kaputa dance
+15
+
+In [20]: def greet(lang):
+    ...:     if lang=="lat":
+    ...:         print("cau")
+    ...:     elif lang =="es":
+    ...:         print("hola")
+    ...:     else:
+    ...:         print("yes")
+    ...:                 
+
+In [21]: greet("lat")
+cau
+
+In [22]: greet("hj")
+yes
+
+In [23]: greet("es")
+hola
+
+In [24]: def sveiki():
+    ...:     return "cau"
+    ...: print(sveiki(), "ints")
+    ...: print(sveiki(), "reinis")
+    ...: 
+cau ints
+cau reinis
+
+In [25]: sveiki()
+Out[25]: 'cau'
+
+In [26]: print (sveiki() "ints")
+  File "<ipython-input-26-831ca953631f>", line 1
+    print (sveiki() "ints")
+                         ^
+SyntaxError: invalid syntax
+
+
+In [27]: print(sveiki(), "ints")
+cau ints
+
+In [28]: def greet(lang):
+    ...:     if lang=="lat":
+    ...:         return("cau")
+    ...:     elif lang =="es":
+    ...:         return("hola")
+    ...:     else:
+    ...:         return("yes")
+    ...:                 
+
+In [29]: print(greet("lat"), "ints")
+cau ints
+
+In [30]: print(greet("g"), "ints")
+yes ints
+
+In [31]: def reiz(a,b):
+    ...:     sareiz = a*b
+    ...:     return sareiz
+    ...: 
+
+In [32]: m= reiz(6,7)
+
+In [33]: print (m)
+42
+
+In [34]: def computepay():
+    ...:     input(hrs)
+    ...:     input(rate)
+    ...:     if hrs<40
+  File "<ipython-input-34-7b688aba2865>", line 4
+    if hrs<40
+             ^
+SyntaxError: invalid syntax
+
+
+In [35]: def computepay():
+    ...:     input(hrs)
+    ...:     input(rate)
+    ...:     if hrs=<40:
+    ...:         print(hrs*rate)
+    ...:     elif hrs>40:    
+  File "<ipython-input-35-b699d1460d13>", line 4
+    if hrs=<40:
+          ^
+SyntaxError: invalid syntax
+
+
+In [36]: input(hours)
+    ...: input(rate) 
+    ...: r=int(rate)
+    ...:   
+----------------------------------------------------------------
+NameError                      Traceback (most recent call last)
+<ipython-input-36-5e7fd89e5d0a> in <module>()
+----> 1 input(hours)
+      2 input(rate)
+      3 r=int(rate)
+      4 
+
+NameError: name 'hours' is not defined
+
+In [37]: 
+
+In [37]: exit()
+
