@@ -1,0 +1,7 @@
+    1  git clone https://github.com/intsintsints/RTR105
+    2  sudo apt install git
+    3  git clone https://github.com/intsintsints/RTR105
+    4  cd RTR105
+    5  ipython
+    6  nano dgr_20181024.txt
+    7  history > histort20181024.txt
