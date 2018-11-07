@@ -1,0 +1,14 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  rm -r RTR105
+    4  rm -rf RTR105
+    5  git clone https://github.com/intsintsints/RTR105
+    6  cd RTR105
+    7  ipython
+    8  ls -l
+    9  ipython
+   10  nano text.txt
+   11  ipython
+   12  ls -la
+   13  nano dgr_20181107.txt
+   14  history > history_20181107.txt
