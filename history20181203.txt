@@ -1,0 +1,43 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  firefox &
+    4  git clone https://github.com/intsintsints/portal
+    5  git clone https://github.com/intsintsints/RTR105
+    6  idle -n &
+    7  gnuplot
+    8  file -> new window
+    9  ls -l
+   10  cd new
+   11  rm new
+   12  ls -l
+   13  file -> 170.py
+   14  ls -l
+   15  file -> new window
+   16  ls -l
+   17  rm new
+   18  nano 170.py
+   19  rm 170.py
+   20  cd RTR105
+   21  file -> 170.py
+   22  nano 170.py
+   23  python 170.py
+   24  nano 170.py
+   25  python 170.py
+   26  nano 170.py
+   27  python 170.py
+   28  nano 170.py
+   29  cp 170.py 171.py
+   30  nano 171.py
+   31  python 171.py
+   32  nano 171.py
+   33  nano 170.py
+   34  python 170.py
+   35  nano 170.py
+   36  python 170.py
+   37  nano 170.py
+   38  python 170.py
+   39  nano 170.py
+   40  python 170.py
+   41  nano 170.py
+   42  history > history20181203
+   43  history > history20181203.txt
