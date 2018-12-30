@@ -29,11 +29,17 @@ else:
 # Defineejam precizitaati, ar kaadu mekleesim sakni:
 deltax = 0.01
 # sashaurinam saknes mekleeshanas robezhas:
+k=0
 while (fabs (b-a) > deltax ):
+    k=k+1
     x = (a+b)/2; funx = f(x)
     if ( funa*funx < 0. ):
         b=x
     else:
         a=x
 
+deffunk = sinh(x/2)
+
 print ("Sakne ir: ", x)
+print ("Funkcijas vertiiba ir:", deffunk)
+print ("Tik reizes vajadzeeja daliit uz puseem", k)
